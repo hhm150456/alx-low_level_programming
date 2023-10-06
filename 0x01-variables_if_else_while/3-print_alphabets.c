@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: A C program that prints the entire alphabet in lowercase
+ * Description: A C program that prints the entire alphabet in lower and upperc
  *
  * Return: Always 0 (Success)
 */
