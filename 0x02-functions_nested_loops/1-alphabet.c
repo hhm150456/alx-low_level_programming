@@ -1,29 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * _putchar - writes the alphabets to stdout
  *
- * Return: Always 0.
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriatiely.
 */
-
-void print_alphabet(void);
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
 void print_alphabet(void)
 {
-	int i;
-
 	char l;
 
 	l = 'a';
-	for (l; l <= 'z'; ++l)
+	while (l <= 'z') 
 	{
-		putchar(l);
+		_putchar(l);
+		++l;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
