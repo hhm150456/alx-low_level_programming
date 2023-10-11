@@ -1,5 +1,5 @@
 #include <unistd.h>
-
+#include "main.h"
 /**
  * print_last_digit - writes the last digit
  * @n: The intger value
@@ -20,5 +20,6 @@ int print_last_digit(int n)
 	{
 		i = ((-1) * (n % 10));
 	}
+	_putchar(i + '0');
 	return (i);
 }
