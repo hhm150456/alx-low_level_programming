@@ -20,4 +20,8 @@ void print_square(int size)
 		}
 		_putchar('\n');
 	}
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
 }
